@@ -178,7 +178,7 @@ void viewTitles() {
 
 void viewHeader() {
     std::cout << "\033[31m" << "================================================================================" << "\033[0m" << std::endl;
-    std::cout << "\033[1;31m" << "Cheats Updater v" << VERSION << " by HamletDuFromage / Mod by MUXI fuer amsPLUS" << "\033[0m" <<std::endl;
+    std::cout << "\033[1;31m" << "Cheats Updater v" << VERSION << " by HamletDuFromage / Acta - Mod by MUXI" << "\033[0m" <<std::endl;
     std::cout << "\033[31m" << "================================================================================" << "\033[0m" << std::endl;
     std::cout << std::endl;
     consoleUpdate(NULL);
