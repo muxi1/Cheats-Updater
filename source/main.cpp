@@ -264,7 +264,7 @@ int main(int argc, char* argv[])
             
         } 
 
-        if (kDown & KEY_X){
+        if (kDown & HidNpadButton_X){
             if(!done) {
                 deleteCheatsConfirm = true;
                 clearConsole();
@@ -279,7 +279,7 @@ int main(int argc, char* argv[])
             }
         }
 
-        if (kDown & KEY_B){
+        if (kDown & HidNpadButton_B){
             if(!done){
                 clearConsole();
                 viewHeader();
@@ -287,14 +287,14 @@ int main(int argc, char* argv[])
                 updated = false;
                 done = true;
                 std::cout << "\033[7;37m"<< "\nDruecke [-] um zum Hauptmenue zurueckzukehren" << "\033[0m" <<std::endl;
-				std::cout << std::endl;
+                std::cout << std::endl;
                 std::cout << "\033[7;37m"<< "\nDruecke [+] zum Beenden" << "\033[0m" <<std::endl;
                 consoleUpdate(NULL);
 
             }
         }
 
-        if (kDown & KEY_MINUS) {
+        if (kDown & HidNpadButton_Minus) {
             if(done) {
                 clearConsole();
                 viewMain();
@@ -304,7 +304,7 @@ int main(int argc, char* argv[])
                 consoleUpdate(NULL);
             }
         }
-        if (kDown & KEY_Y) {
+        if (kDown & HidNpadButton_Y) {
             if(updated) {
                 clearConsole();
                 viewHeader();
@@ -314,7 +314,7 @@ int main(int argc, char* argv[])
             }
         }
 
-        if (kDown & KEY_PLUS)
+        if (kDown & HidNpadButton_Plus)
             break; 
     }
 
