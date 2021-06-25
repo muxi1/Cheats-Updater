@@ -45,7 +45,7 @@ INCLUDES	:=	include libs/minizip/include
 #ROMFS		:=	romfs
 APP_TITLE   :=  Cheats Updater
 APP_AUTHOR  :=  HamletDuFromage/Acta - Mod by MUXI
-APP_VERSION :=  1.2.4
+APP_VERSION :=  1.2.5
 
 #---------------------------------------------------------------------------------
 # options for code generation
