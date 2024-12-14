@@ -11,7 +11,7 @@
 #include "download.hpp"
 #include "titles.hpp"
 
-#define VERSION "1.2.14"
+#define VERSION "1.2.13"
 #define RELEASE_URL "https://github.com/muxi1/switch-cheats-db/releases/tag/v1.0"
 #define ARCHIVE_URL "https://github.com/muxi1/switch-cheats-db/releases/download/v1.0/"
 
